@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "boot": "logindetails-33c4d"
+  },
+  "targets": {
+    "logindetails-33c4d": {
+      "hosting": {
+        "flexboot": [
+          "logindetails-33c4d"
+        ]
+      }
+    }
+  }
+}

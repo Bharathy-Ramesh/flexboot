@@ -1,0 +1,18 @@
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let obj of det; let i = index">
+            <td>{{i + 1}}</td>
+            <td>{{obj.name}}</td>
+            <td>{{obj.email}}</td>
+            <td><span><i class="fas fa-trash-alt" (click)="deleteuser(obj)"></i></span><span><i class="far fa-edit" (click)="updateuser(obj)"></i></span></td>
+        </tr>
+    </tbody>
+</table>

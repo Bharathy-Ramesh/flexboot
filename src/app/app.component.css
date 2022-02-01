@@ -1,0 +1,8 @@
+.card{
+    width: 60%;
+    margin:30px;
+}
+.contain{
+    display: flex;
+    flex-direction: row-reverse;
+}
