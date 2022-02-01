@@ -10,7 +10,7 @@
         <label>Password</label>
         <input class="form-control" type="password" id="password" formControlName="password" [ngClass]="{ 'is-invalid': submitted && f['password'].errors }">
       </div>
-      <div class="form-group">
+      <div class="form-group"> 
         <label>Email</label>
         <input class="form-control" type="email" placeholder="email@yahoo.com" formControlName="email" [ngClass]="{ 'is-invalid': submitted && f['email'].errors }">
         <div *ngIf="f['email'].errors && f['email'].touched">
